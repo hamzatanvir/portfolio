@@ -301,64 +301,59 @@ export default function PersonalPortfolio() {
   const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([
     {
       id: "1",
-      url: "/placeholder.svg?height=300&width=400",
-      caption: "Beautiful sunset at the beach",
+      url: "/WhatsApp Image 2025-06-25 at 10.08.01_bd0c38ab.jpg",
+      caption: "freinds",
       items: [
         {
           id: "bm1",
-          title: "Sunset at the Beach",
+          title: "friends",
           date: "2024-03-10",
           location: "Santa Monica Pier",
           camera: "iPhone 15 Pro",
           story: "Captured this during a spontaneous evening walk. The colors were absolutely magical.",
           people: "Solo photo",
           mood: "Peaceful and reflective",
-          imageUrl: "/placeholder.svg?height=300&width=400",
+          imageUrl: "",
         },
       ],
     },
     {
       id: "2",
-      url: "/placeholder.svg?height=300&width=400",
-      caption: "Cozy coffee shop atmosphere",
+      url: "/WhatsApp Image 2025-06-25 at 10.08.01_7d704169.jpg",
+      caption: "freinds1",
       items: [
         {
           id: "bm2",
-          title: "Coffee Shop Vibes",
+          title: "friends1",
           date: "2024-02-28",
           location: "Local Coffee House",
           camera: "Canon EOS R5",
           story: "Love the cozy atmosphere of this place. Perfect for reading and people watching.",
           people: "Candid shot of strangers",
           mood: "Cozy and warm",
-          imageUrl: "/placeholder.svg?height=300&width=400",
+          imageUrl: "",
         },
       ],
     },
     {
       id: "3",
-      url: "/placeholder.svg?height=300&width=400",
-      caption: "Mountain hiking adventure",
+      url: "/WhatsApp Image 2025-06-25 at 10.08.01_fe9e7630.jpg",
+      caption: "friends2",
       items: [],
     },
     {
       id: "4",
-      url: "/placeholder.svg?height=300&width=400",
-      caption: "City lights at night",
+      url: "/WhatsApp Image 2025-06-25 at 10.08.02_c9e66c9c.jpg",
+      caption: "friend3",
       items: [],
     },
-    {
+     {
       id: "5",
-      url: "/placeholder.svg?height=300&width=400",
-      caption: "Garden flowers in bloom",
+      url: "/WhatsApp Image 2025-06-25 at 10.08.01_bd0c38ab.jpg",
+      caption: "friend4",
       items: [],
     },
-    {
-      id: "6",
-      url: "/placeholder.svg?height=300&width=400",
-      caption: "Friends gathering",
-      items: [],
-    },
+
   ])
 
   // Form states
@@ -2907,7 +2902,7 @@ export default function PersonalPortfolio() {
                     </Button>
                   </div>
                   <img
-                    src={image.url || "/placeholder.svg?height=300&width=300"}
+                    src={image.url || "/public\WhatsApp Image 2025-06-25 at 10.08.01_7d704169.jpg?height=300&width=300"}
                     alt={image.caption}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     onError={(e) => {

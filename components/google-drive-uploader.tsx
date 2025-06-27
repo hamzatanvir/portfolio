@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 
 import type React from "react"
 
@@ -114,7 +114,7 @@ export function GoogleDriveUploader({ onUploadComplete, className }: GoogleDrive
           </div>
         </div>
 
-        {/* Status Display */}
+        {/* Status Display }
         <div className="flex items-center gap-2 p-3 rounded-lg bg-white/5">
           {getStatusIcon()}
           <span
@@ -130,14 +130,14 @@ export function GoogleDriveUploader({ onUploadComplete, className }: GoogleDrive
           </span>
         </div>
 
-        {/* Upload Progress Simulation */}
+        {/* Upload Progress Simulation }
         {uploading && (
           <div className="w-full bg-white/20 rounded-full h-2">
             <div className="bg-blue-500 h-2 rounded-full animate-pulse" style={{ width: "60%" }}></div>
           </div>
         )}
 
-        {/* Success Preview */}
+        {/* Success Preview }
         {uploadStatus === "success" && uploadedFile && (
           <div className="p-3 rounded-lg bg-green-500/20 border border-green-500/30">
             <p className="text-green-300 text-sm font-medium">✅ File uploaded successfully!</p>
@@ -154,4 +154,4 @@ export function GoogleDriveUploader({ onUploadComplete, className }: GoogleDrive
       </CardContent>
     </Card>
   )
-}
+}*/
