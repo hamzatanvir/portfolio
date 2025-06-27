@@ -148,7 +148,7 @@ export function GoogleDriveUploader({ onUploadComplete, className }: GoogleDrive
 
         <div className="text-xs text-purple-300 space-y-1">
           <p>📁 Target Folder: /portfolio-images</p>
-          <p>🔗 Drive Link: drive.google.com/drive/folders/1OwXAiM7...</p>
+          <p>🔗 Drive Link: https://drive.google.com/drive/folders/1OwXAiM7qEFmBnKibfO3WjF-WiU_b9j5u?usp=drive_link</p>
           <p>⚠️ Note: This is a mock implementation for demonstration</p>
         </div>
       </CardContent>
